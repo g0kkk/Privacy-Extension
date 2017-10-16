@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension allows the user to change the background color of the current page.",
+  "name": "Defender against privacy attacks",
+  "description": "This extensions defends against various privacy attacks which happens while you browse on the internet.",
   "version": "1.0",
 
   "browser_action": {
