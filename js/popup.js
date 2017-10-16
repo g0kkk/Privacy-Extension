@@ -23,6 +23,7 @@ function getCurrentTabUrl(callback) {
     // A window can only have one active tab at a time, so the array consists of
     // exactly one tab.
     var tab = tabs[0];
+    console.log(tab);
 
     // A tab is a plain object that provides information about the tab.
     // See https://developer.chrome.com/extensions/tabs#type-Tab
@@ -122,5 +123,14 @@ document.addEventListener('DOMContentLoaded', () => {
       changeBackgroundColor(dropdown.value);
       saveBackgroundColor(url, dropdown.value);
     });
+  });
+});
+
+// Disable Javascript exentension
+$(document).ready(function () {
+  $("#disabler").change(function() {
+    if(this.checked) {
+        console.log("Working!!");
+    }
   });
 });
