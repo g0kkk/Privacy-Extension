@@ -12,6 +12,9 @@
   "background": {
    "scripts": ["background.js"]
  },
+ "chrome_url_overrides":{
+   "newtab":"newtab.html"
+ },
   "icons" : {
     "64": "icon.png"
   },
